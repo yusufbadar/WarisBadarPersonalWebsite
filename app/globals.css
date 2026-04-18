@@ -406,7 +406,7 @@ body.is-preloading .site-shell {
   padding: 0 40px;
   display: grid;
   grid-template-columns: 1.05fr 1fr;
-  gap: clamp(64px, 7vw, 120px);
+  gap: clamp(100px, 11vw, 200px);
   align-items: center;
   min-height: 62vh;
 }
