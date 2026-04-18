@@ -405,8 +405,8 @@ body.is-preloading .site-shell {
   margin: 0 auto;
   padding: 0 40px;
   display: grid;
-  grid-template-columns: 1.05fr 1fr;
-  gap: clamp(100px, 11vw, 200px);
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(160px, 16vw, 300px);
   align-items: center;
   min-height: 62vh;
 }
