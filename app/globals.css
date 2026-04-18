@@ -406,7 +406,7 @@ body.is-preloading .site-shell {
   padding: 0 40px;
   display: grid;
   grid-template-columns: 1.05fr 1fr;
-  gap: 40px;
+  gap: clamp(64px, 7vw, 120px);
   align-items: center;
   min-height: 62vh;
 }
@@ -844,7 +844,7 @@ body.is-preloading .site-shell {
 @media (max-width: 1180px) and (min-width: 881px) {
   .hero-stage {
     grid-template-columns: 1.1fr 1fr;
-    gap: 24px;
+    gap: clamp(40px, 5vw, 64px);
   }
   .hero-name__word { font-size: clamp(56px, 10.5vw, 160px); }
   .hero-name__line { height: clamp(56px, 10vw, 150px); }
